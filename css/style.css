@@ -1,0 +1,156 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: indigo;
+}
+
+.container
+{
+    background-color: whitesmoke;
+    width: 98%;
+    height: 600px;
+    margin-top: 24px;
+    border-radius: 10px;
+}
+
+.nav
+{
+    background-color:transparent;
+    width: 98%;
+    border-radius: 10px;
+   transform: translateY(30px);
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.menu
+{
+    display: flex;
+    transform: translateX(140px);
+    justify-content: space-between;
+}
+li
+{
+    list-style-type: none;
+    
+}
+#we
+{
+    color: blue;
+}
+a
+{
+    padding: 1px 14px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:rgb(175, 174, 174);
+    transition: all 0.6s ease;
+}
+
+a:hover
+{
+    background-color: indigo;
+    color:white;
+    transition: all 0.6s ease;
+   padding: 0px 8px;
+    border-radius: 10px;
+}
+
+.logo
+{
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: blue;
+    margin-left: 30px;
+}
+
+.btt button
+{
+    background-color: transparent;
+    padding: 2px 12px;
+    border-radius: 10px;
+    color: indigo;
+    border:3px solid indigo;
+
+}
+
+.hero
+{
+    display: flex;
+    margin-top: 28px;
+    align-items: center;
+}
+.img
+{
+    width: 56%;
+    margin-right: 10px;
+    height: 500px;
+}
+
+.img img
+{
+    width: 100%;
+    height: 80%;
+}
+
+.text h1
+{
+    font-size: 80px;
+   margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text p
+{
+  margin-top: 10px;
+  font-size: 12;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: rgb(248, 193, 90);   
+  padding: 17px;
+}
+
+.cabdi button
+{
+    background-color: indigo;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    transform: translateX(80px);
+    border: 0;
+    border-radius: 10px;
+    padding: 4px 14px;
+    transition: all 0.6s ease;
+}
+.cabdi button:hover
+{
+    background-color: orange;
+    color: white;
+    transition: all 0.6s ease;
+    margin-top: 2px;
+}
+
+::selection
+{
+    background-color: rgb(248, 193, 90);
+    color: white;
+}
+
+@media screen and (max-width:768px;){
+    
+          .menu
+          {
+            display: none;
+          }
+}
